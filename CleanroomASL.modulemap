@@ -1,0 +1,12 @@
+framework module CleanroomASL {
+    umbrella header "CleanroomASL.h"
+
+    export *
+    module * { export * }
+
+    module ASL [system] {
+      header "/usr/include/asl.h"
+      export *
+    }
+}
+
